@@ -1,0 +1,83 @@
+*{
+	font-size: 12px;
+}
+judul{
+	font-size: 24px;
+	color: white;
+}
+.pelatihan{
+	background-color: white;
+}
+#scimg{
+	padding-left: 0px;
+}
+#contactbottom{
+	background-color: black;
+    color: white;
+	position: fixed;
+    bottom: 0px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+}
+#cptn{
+	text-align: center;
+	color: white;
+	padding: 20px;	
+}
+#sectcontent{
+	background-color: black;
+	padding: 0px;
+	width: 87%;
+	margin-top: 0px;
+	margin-left: 	20px;
+	margin-right: 	20px;
+	margin-bottom: 0px;
+	border-radius: 25px;
+	box-shadow: 4px 4px 10px  #888888;
+
+}
+#mb-cptn{
+	font-size: 20px;
+	color: white;
+	text-align: center;
+}
+#contactbottom a{
+color: white;
+}
+#kard{
+	padding: 4px;
+}
+
+#beda {
+    background: none;
+    border: 1px solid black;
+    color: black;
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px 30px;
+    position: relative;
+    text-transform: uppercase;
+    }
+
+#beda2 {
+    background: none;
+    border: 1px solid black;
+    color: black;
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px 30px;
+    position: relative;
+    text-transform: uppercase;
+    }
+
+.las{
+	padding: 20px 0px;
+}
+sd{
+	color: red;
+	font-size: 23px;
+}

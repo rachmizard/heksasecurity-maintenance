@@ -1,0 +1,121 @@
+@media only screen and (min-width: 280px) and (max-width: 767px) {
+	body{
+		font-size: 11px;
+	}
+	.artikel {
+  padding: -30px;
+}
+	.lead{
+		height: 100px;
+	}
+	#cpt-gallery{
+		font-size: 18px;
+	}
+	#ctn{
+		padding-top: 10px;padding-bottom: 10px;		
+		padding: auto 40px;
+	}
+	#fz{
+		font-size: 11px;
+	}
+
+	#bordermerah{
+		border: 2px solid rgb(204,48,40);;
+  		padding:10px;
+  		border-radius: 0px;
+  		margin-bottom: 10px;
+	}
+	#sgrid{
+	}
+	#bfns{
+  margin-right: 0px;
+}
+    .navbar-dropdown.navbar-short .navbar-logo img {
+display: none;
+ }
+ .prev{
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  margin-left:0px;
+  font-size: 50px;
+  color: #000;
+  opacity: 0.4;
+}
+
+.next{
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  right: 0;
+  margin-right:0px;
+  font-size: 50px;
+  color: #000;
+  opacity: 0.4;
+	}
+
+.feature img{
+	width: 100px;
+	height: 100px;
+	border: 1px solid #29292b;
+	padding: 5px;
+	float: left;
+	margin-right: 15px;
+}
+.feature1 img{
+	width: 1000px;
+	height: 100px;
+	border: 1px solid #29292b;
+	padding: 5px;
+	float: left;
+	margin-right: 15px;
+}
+.securityescort{
+ 	text-align: center; 
+}
+.btn-2{
+	text-align: center;
+}
+	.heigh{
+		height: 900px;
+	}
+
+	.heden{
+		display: none;
+	}
+
+}
+/*end mobile*/
+
+#ctn{
+	padding-top: 0px;padding-bottom: 30px;
+padding-left: 70px;
+padding-right:  70px;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 925px) {
+	.heigh{
+		height: 900px;
+	}
+}
+
+@media only screen and (min-width: 900px) and (max-width: 925px) {
+	.heigh{
+		height: 900px;
+	}
+}
+
+@media only screen and (min-width: 280px) and (max-width: 1000px) {
+	.heden{
+		display: none;
+	}
+	
+}
+
+@media only screen and (min-width: 280px) and (max-width: 1000px) {
+	.sleding{
+		display: none;
+	}
+	
+}

@@ -1,0 +1,188 @@
+.index-content a:hover{
+    color:black;
+    text-decoration:none;
+}
+.index-content{
+    margin-bottom:20px;
+    padding:10px 0px;
+    margin-top: 0px;
+    
+}
+.index-content .row{
+    margin-top:20px;
+}
+.index-content a{
+    color: black;
+}
+.index-content .card{
+    background-color: #FFFFFF;
+    padding:0;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius:4px;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+
+}
+.index-content .card:hover{
+    box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
+    color:black;
+}
+.index-content .card img{
+    width:100%;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.index-content .card h4{
+    margin:20px;
+    font-family: "Montserrat";
+}
+.index-content .card p{
+    margin:20px;
+    opacity: 0.65;
+}
+.index-content .blue-button{
+    width: 100px;
+    min-height: 20px;
+    color: skyblue;
+    border-radius: 4px;
+    text-align: center;
+    margin: 0px 20px 15px 20px;
+    padding: 0px 0px;
+    display: inline-block;
+    border-bottom: 2px solid skyblue;
+}
+.index-content .blue-button:hover{
+    background-color: transparent;
+    color: skyblue;
+}
+@media (max-width: 768px) {
+
+    .index-content .col-lg-4 {
+        margin-top: 20px;
+    }
+}
+
+    #custom-search-form {
+        margin:0;
+        margin-top: 20%;
+        padding: 0;
+        margin-left: 20%;
+    }
+ 
+    #custom-search-form .search-query {
+        padding-right: 3px;
+        padding-right: 4px \9;
+        padding-left: 3px;
+        padding-left: 4px \9;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+ 
+        margin-bottom: 10px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+ 
+    #custom-search-form button {
+        border: 0;
+        background: none;
+        /** belows styles are working good */
+        padding: 2px 5px;
+        margin-top: 2px;
+        position: relative;
+        left: -28px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+ 
+    .search-query:focus + button {
+        z-index: 3;   
+    }
+.tabtab{
+  
+  float: left;
+  width: 20%;
+}
+.multipletab{
+  width:80%;
+  margin:0 auto;
+  background:transparent;
+  overflow:hidden;
+  position:relative;
+}
+.tab-buttons{
+  display:inline-block;
+}
+.tab-buttons>span{
+  display:block;
+  float:left;
+  cursor:pointer;
+  color:#8a8b8f;
+  font:400 15px 'pt sans',sans-serif;
+  border: 1px;
+  background:#dbdbdb;
+
+  padding:0 15px;
+  line-height:40px !important;
+}
+.tab-buttons>span.active{
+
+  background:transparent;
+  color:black;
+  position:relative;
+  border: 1px solid #dbdbdb;
+}
+.tab-content{
+position:relative;
+border: 1px solid #dbdbdb;
+}
+.tab-content>div{
+  position:absolute;
+  color:#666;
+  font-family:'pt sans',sans-serif;
+}
+.tab-nav{
+  opacity:0;
+  transition:all .3s linear;
+  -moz-transition:all .3s linear;
+  -webkit-transition:all .3s linear;
+}
+.multipletab:hover .tab-nav{
+  opacity:1;
+}
+.tab-nav>span{
+  position:absolute;
+  top:50%;
+  cursor:pointer;
+  display:block;
+  height:35px;
+  width:35px;
+}
+
+.blog {
+  width: 80%;
+  
+}
+.emergency{
+  padding-left: 40px;
+}
+#lf{
+  padding: 50px;
+}
+#rg{
+  padding: 50px;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 767px) {
+ .las{
+  padding: 0px;
+  } 
+  #lf{
+  padding: 0px;
+  }
+  #rg{
+    padding:0px;
+  }
+}
